@@ -233,3 +233,87 @@ section.our-team div.colum details p {
     text-align: justify;
     text-indent: 3%;
 }
+
+/* End Team section */
+
+section.video {
+    width: 100%;
+    background: linear-gradient(rgba(0, 0, 0, .9), rgba(0, 0, 0, .9)), url(video/video-bg.jpg) no-repeat center;
+    background-size: cover;
+    padding: 5% 0;
+    margin-bottom: 3%;
+}
+
+section.video .video-wrapper {
+    width: 50%;
+    float: right;
+}
+
+section.video .video-wrapper video {
+    width: 60%;
+    margin-left: 20%;
+}
+
+section.video .text-wrapper {
+    width: 45%;
+    float: right;
+    color: #fff;
+    text-align: center;
+}
+
+section.video .text-wrapper p {
+    text-align: justify;
+    text-indent: 3%;
+}
+/* End Video section */
+
+section.google-map {
+    background: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url(img/google-map-bg.jpg) no-repeat center;
+    background-size: cover;
+    padding: 2% 0;
+}
+
+section.google-map h2 {
+    color: #fff;
+    text-align: center;
+    padding: 1%;
+    margin: auto;
+}
+
+section.google-map div {
+    width: 50%;
+    float: left;
+}
+
+section.google-map div.map iframe {
+    min-height: 340px;
+    width: 90%;
+    margin: 2% 5%;
+}
+
+section.google-map div form {
+    width: 90%;
+    margin: auto;
+}
+
+section.google-map div form input, section.google-map div form textarea {
+    display: block;
+    width: 90%;
+    margin: 1% 5%;
+    padding: 1% 0;
+    font-size: 90%;
+    background: #fff;
+}
+
+section.google-map div form input[type="submit"] {
+    width: 25%;
+    background: #555;
+    color: #fff;
+    transition: background .2s, color .2s;
+}
+
+section.google-map div form input[type="submit"]:hover {
+    background: #fff;
+    color: #555;
+}
+/* End Google Maps section */
